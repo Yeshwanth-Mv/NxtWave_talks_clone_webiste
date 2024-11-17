@@ -1,0 +1,304 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+body, html {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    overflow-x: hidden;
+  }
+  
+  .first-sec {
+    background: linear-gradient(to right, 
+    rgba(12, 26, 47,1.0) 0%,                 
+    rgba(12, 26, 47
+    , 0.871) 29%,         
+    rgba(16, 33, 60, 0.753) 37%,
+    rgba(28, 41, 62, 0) 75%            
+  );
+    width: 100%;
+    height: 100vh; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position:relative;
+    top:20%;
+  }
+.video-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    top:0;
+    right:0;
+    left:0;
+    z-index: -1;
+  }
+  .video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #mobileVideo {
+    display: none;
+  }
+  @media (max-width: 768px) {
+    #desktopVideo {
+      display: none;
+    }
+    #mobileVideo {
+      display: block;
+    }
+  }
+  .fs-info{
+    position:absolute;
+    top:5em;
+    left:10em;
+  }
+  .scrolling-text h1{
+    width:300px;
+  }
+  .one{
+    display: block;
+    margin-bottom:15px;
+    width:400px;
+  }
+  .second-sec{
+    width:100%;
+    height:90vh;
+    background-color: #0c1729;
+  }
+  .main-text{
+    position: relative;
+    top:20%;
+    left:25%;
+    width:50em;
+}
+.main-text h1{
+    font-size:52px;
+    font-family:'Satoshi',sans-serif;
+    font-weight:bold;
+}
+.scrolling-images{
+    position:relative;
+    top:30%;
+    animation:scroll-left 24s linear infinite;  
+    animation-delay:0s;
+}
+@keyframes scroll-left{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-25%);
+    }
+    38%{
+        transform:translateX(-38%);
+    }
+    50%{
+        transform: translateX(-50%);
+    }
+    75%{
+        transform: translateX(-75%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.sc-img1,.sc-img2{
+    width:300em;
+    object-fit: contain;
+}
+.third-sec{
+    width:100%;
+    height:170vh;
+    background-color:#1E293B;
+}
+.ts{
+    position:relative;
+    top:90px;
+    left:28em;
+}
+.centre-headings{
+    width:40em;
+    font-family:'Satoshi',sans-serif;
+}
+.ts-main{
+    font-size:50px;
+    font-weight:bold;
+    margin-bottom:20px;
+    line-height:70px;
+    color:#F1F5F9;
+}
+.ts-sub{
+    font-family: sans-serif;
+    font-size:18px;
+    color:#c9cdd2c9;
+    tab-size:4;
+    margin-top:30px;
+}
+.bts{
+    position: relative;
+    left:23em;
+    top:130px;
+}
+.b1{
+    border-radius:40px;
+    margin-right:20px;
+    padding-left:15px;
+    padding-right:15px;
+    font-family: sans-serif;
+    font-size:16px;
+}
+.b11{
+    border:none;
+    padding-right:15px;
+    padding-left:13px;
+    font-family: sans-serif;
+    font-size:14px;
+}
+.person-img{
+    width:300px;
+    height:195px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+}
+.c1-info{
+    width:300px;
+    height:277px;
+    padding: 16px 16px 28px;
+    background-color: #32435a;
+    color:white;
+    font-family:'satoshi';
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+}
+.c1-time p svg{
+    width:30px;
+}
+.c1-main{
+    font-size:25px;
+    font-weight:bold;
+}
+.c1-name{
+    font-size:15px;
+    font-family: sans-serif;
+}
+.c1-n{
+    color:#c1cdde;
+    font-weight:bold;
+    font-size:17px;
+}
+.c1-link{
+    color:#5AA5FA;
+}
+.c1-link:hover{
+    text-decoration: none;
+    color:#5AA5FA;
+}
+.cards{
+    position:relative;
+    top:190px;
+    left: 260px;
+}
+.b2{
+    position: relative;
+    top:250px;
+    padding:10px;
+    padding-left:6em;
+    padding-right:6em;
+    font-weight:600;
+}
+.p2{
+    position: relative;
+    top:260px;
+}
+.fss-info{
+    position:relative;
+    top:100px;
+    left:35em;
+}
+.fourth-sec{
+    width:100%;
+    height:90vh;
+    background-color:#0c1729;
+}
+.fss-main{
+    color:#F1F5F9;
+    font-family:'satoshi';
+    font-size:45px;
+    font-weight: bold;
+    line-height:65px;
+    margin-bottom:30px;
+}
+.fss{
+    position: relative;
+    width:380px;
+}
+.fss-b{
+    color:#F59E0B;
+    background-color:#fba40e17;
+    border:1px solid #f59f0ba2;
+    padding:15px;
+    border-radius:30px;
+    font-size:20px;
+    font-weight:600;
+}
+.fifth-sec{
+    width:100%;
+    height:110vh;
+    background-color:#1E293B;
+    overflow: hidden;
+}
+.fi-s{
+    position: relative;
+    color:#F1F5F9;
+    top:100px;
+    left:160px;
+    width:60em;
+}
+.fi-main{
+    font-family:'satoshi';
+    font-weight:bold;
+    font-size:50px;
+    line-height:70px;
+}
+.fi-2{
+    left:180px;
+    margin-top:60px;
+}
+.fi-info{
+    font-size:26.5px;
+    font-family:sans-serif;
+}
+.b3{
+    margin-top:40px;
+    padding:9px;
+    padding-left:9em;
+    padding-right:9em;
+    border-radius:8px;
+    font-family:sans-serif;
+    font-size:16px;
+    background-color: #2563EB;
+}
+.mic-image{
+    width:23em;
+    transform: rotate(-45deg);
+    opacity:0.4;
+    margin-left:300px;
+    margin-right:-70px;
+    margin-top:230px;
+}
+.sixth-sec{
+    width:100%;
+    height:60vh;
+    background-color:#0c1729;
+    overflow: hidden;
+}
+.ss{
+    position: relative;
+}
+.inp-2{
+    margin-top:30px;
+}

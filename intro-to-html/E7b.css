@@ -1,0 +1,48 @@
+.l1{
+    color: rgb(106, 105, 105);
+    margin-bottom: 5px;
+}
+.textbox{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 370px;
+    height: 30px;
+    border-color: rgb(53, 53, 53);
+    border-radius: 4px;
+}
+.l3{
+color: rgb(110, 108, 108);
+}
+.button{
+    background-color: rgb(63, 63, 227);
+    color: white;
+    padding-left: 140px;
+    padding-right: 140px;
+    border: none;
+    height:45px ;
+    border-radius: 28px;
+    font-size: 17px;
+}
+.img1{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.textbox2{
+    font-size: 18px;
+  border: none;
+  width: 300px;
+  vertical-align: middle;
+}
+.b2{
+    background-color: rgb(95, 95, 255);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 13px;
+    width: 60px;
+    height: 25px;    
+}

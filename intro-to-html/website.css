@@ -1,0 +1,7 @@
+.hello{
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+    column-rule-color: black;
+    border-radius: 5px;
+}

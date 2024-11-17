@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex-box practice</title>
+    </head>
+    <body>
+        <style>
+            .f-box{
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                margin-bottom: 50px;
+            }
+            .f-box2{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .f-box3{
+                display: flex;
+                flex-direction: row;
+                justify-content:space-between;
+                margin-top: 50px;
+                border: 2px solid;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        </style>
+        <div class="f-box">
+            <div style="background-color: pink; width: 200px;">200px</div>
+            <div style="background-color: lightblue; width: 75px;">75px</div>
+        </div>
+        <div class="f-box">
+            <div style="background-color: lightblue;width: 50px;">item1</div>
+            <div style="background-color: pink;flex: 1;">item2</div>
+            <div style="background-color: lightblue;width: 75px;">item3</div>
+        </div>
+        <div class="f-box2">
+            <div style="background-color: pink;width: 50px;">item1</div>
+            <div style="background-color: pink;width: 50px;">item2</div>
+            <div style="background-color: pink;width: 50px;">item3</div>
+            <div style="background-color: pink;width: 50px;">item4</div>
+        </div>
+        <div class="f-box3">
+            <div style="background-color: pink;">item1</div>
+            <div style="background-color: pink;">item2</div>
+        </div>
+    </body>
+</html>
